@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Smartphone, Globe, Download } from 'lucide-react';
+import esraelwmImage from '../wm.jpg';
 
 const Projects = () => {
   const projects = [
@@ -52,7 +53,7 @@ const Projects = () => {
     {
       title: "Wudasie Mariam Amharic Audio App",
       description: "A devotional audio application featuring Amharic religious content, prayers, and spiritual teachings with offline playback capabilities.",
-      image: "src/wm.jpg",
+      src={esraelwmImage},
       technologies: ["Flutter", "Dart", "Audio Streaming", "Offline Mode"],
       type: "mobile",
       githubLink: "hh",
