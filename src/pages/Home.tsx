@@ -40,7 +40,7 @@ const Home = () => {
     }
   };
 
-  const name = "Esrael Admasu ";
+  const name = "Esrael Admasu 11 ";
   const title = "Software Engineer";
 
   const services = [
