@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes blink {
+  0%, 50% { border-color: #2563eb; }
+  51%, 100% { border-color: transparent; }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
