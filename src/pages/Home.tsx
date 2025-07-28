@@ -40,7 +40,7 @@ const Home = () => {
     }
   };
 
-  const name = "Esrael Admasu 11 ";
+  const name = "Esrael Admasu";
   const title = "Software Engineer";
 
   const services = [
@@ -111,7 +111,7 @@ const Home = () => {
             className="mb-8"
           >
             <img
-              src="src/esrael.jpg"
+              src="../src/esrael.jpg"
               alt="Esrael Admasu"
               className="w-40 h-40 mx-auto rounded-full shadow-2xl border-4 border-white"
             />
