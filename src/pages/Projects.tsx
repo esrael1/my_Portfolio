@@ -53,7 +53,7 @@ const Projects = () => {
     {
       title: "Wudasie Mariam Amharic Audio App",
       description: "A devotional audio application featuring Amharic religious content, prayers, and spiritual teachings with offline playback capabilities.",
-      src={esraelwmImage},
+      image: esraelwmImage,
       technologies: ["Flutter", "Dart", "Audio Streaming", "Offline Mode"],
       type: "mobile",
       githubLink: "hh",
