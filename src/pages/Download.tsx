@@ -163,7 +163,7 @@ const DownloadPage = () => {
 
                     <div className="space-y-3">
                       <a
-  href={`/apks/${app.apkFileName}`}
+  href={`/${app.apkFileName}`}
   download
   className="w-full bg-green-600 text-white py-3 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors duration-200 flex items-center justify-center space-x-2"
 >
