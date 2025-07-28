@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Download, MessageCircle, Eye, Code2, Smartphone, Globe, Users, Award, Calendar } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import esraelImage from '../esrael.jpg';
 
 const Home = () => {
   const stats = [
@@ -111,7 +112,7 @@ const Home = () => {
             className="mb-8"
           >
             <img
-              src="../esrael.jpg"
+              src={esraelImage} 
               alt="Esrael Admasu"
               className="w-40 h-40 mx-auto rounded-full shadow-2xl border-4 border-white"
             />
