@@ -64,7 +64,7 @@ const About = () => {
           >
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="src/esrael5.jpg"
+                src="../src/esrael5.jpg"
                 alt="Esrael Admasu"
                 className="w-full h-full object-cover"
               />
